@@ -102,7 +102,7 @@
         <div class="absolute left-0 right-0 top-full hidden max-h-[calc(100vh-4rem)] flex-col gap-1 overflow-y-auto border-b border-white/[0.06] bg-navy/98 px-4 py-4 peer-checked:flex md:static md:max-h-none md:flex md:flex-row md:items-center md:gap-8 md:border-0 md:bg-transparent md:p-0">
           <a href="#features" class="rounded-lg px-3 py-2 text-sm text-slate-400 transition hover:bg-white/5 hover:text-white md:py-0">Features</a>
           <a href="#compare" class="rounded-lg px-3 py-2 text-sm text-slate-400 transition hover:bg-white/5 hover:text-white md:py-0">Compare</a>
-          <a href="#how" class="rounded-lg px-3 py-2 text-sm text-slate-400 transition hover:bg-white/5 hover:text-white md:py-0">How it works</a>
+          <a href="#how-it-works" class="rounded-lg px-3 py-2 text-sm text-slate-400 transition hover:bg-white/5 hover:text-white md:py-0">How it works</a>
           <a href="#pricing" class="rounded-lg px-3 py-2 text-sm text-slate-400 transition hover:bg-white/5 hover:text-white md:py-0">Pricing</a>
           <a href="#languages" class="rounded-lg px-3 py-2 text-sm text-slate-400 transition hover:bg-white/5 hover:text-white md:py-0">Languages</a>
           <a href="#faq" class="rounded-lg px-3 py-2 text-sm text-slate-400 transition hover:bg-white/5 hover:text-white md:py-0">FAQ</a>
@@ -138,7 +138,7 @@
                   <span class="block text-lg font-bold">App Store</span>
                 </span>
               </a>
-              <a href="#how" class="inline-flex items-center justify-center rounded-xl border border-white/10 px-6 py-3.5 text-base font-medium text-slate-300 transition hover:border-accent/40 hover:bg-white/[0.03]">See how it works</a>
+              <a href="#how-it-works" class="inline-flex items-center justify-center rounded-xl border border-white/10 px-6 py-3.5 text-base font-medium text-slate-300 transition hover:border-accent/40 hover:bg-white/[0.03]">See how it works</a>
             </div>
             <div class="initial-hidden animate-fade-up delay-4 mt-8 flex flex-wrap gap-6 text-sm text-slate-500">
               <span class="flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>Photo-based triage</span>
@@ -348,7 +348,7 @@
         </div>
       </section>
 
-      <section id="how" class="border-t border-white/[0.06] bg-navy-muted/30 py-20 md:py-28">
+      <section id="how-it-works" class="border-t border-white/[0.06] bg-navy-muted/30 py-20 md:py-28">
         <div class="mx-auto max-w-6xl px-4 md:px-6">
           <div class="mx-auto max-w-2xl text-center">
             <p class="text-sm font-semibold uppercase tracking-wider text-accent">Workflow</p>
@@ -463,17 +463,76 @@
       </section>
     </main>
 
-    <footer class="border-t border-white/[0.06] bg-navy py-12">
-      <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-8 px-4 md:flex-row md:px-6">
-        <div>
-          <p class="font-semibold text-white">Cafixi</p>
-          <p class="text-xs text-slate-500">© 2026 Cafixi</p>
+    <footer class="border-t border-white/5 bg-navy">
+      <div class="mx-auto max-w-6xl px-4 py-14 md:px-6">
+        <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-12">
+          <!-- Brand -->
+          <div>
+            <a href="#" class="inline-flex items-center gap-2 transition hover:opacity-90">
+              <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-accent to-orange-600 text-sm font-bold text-white shadow-lg shadow-accent/20">C</span>
+              <span class="text-lg font-semibold tracking-tight text-white">Cafixi</span>
+            </a>
+            <p class="mt-4 max-w-xs text-sm leading-relaxed text-slate-400">Your pocket AI mechanic. Available in 8 languages.</p>
+            <p class="mt-5 text-xs text-slate-500">© 2026 Cafixi. All rights reserved.</p>
+          </div>
+          <!-- Product -->
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-wider text-slate-500">Product</p>
+            <ul class="mt-4 space-y-3 text-sm text-slate-400">
+              <li><a href="#features" class="transition hover:text-white">Features</a></li>
+              <li><a href="#how-it-works" class="transition hover:text-white">How it Works</a></li>
+              <li><a href="#pricing" class="transition hover:text-white">Pricing</a></li>
+              <li><a href="#compare" class="transition hover:text-white">Compare</a></li>
+              <li><a href="#faq" class="transition hover:text-white">FAQ</a></li>
+            </ul>
+          </div>
+          <!-- Company -->
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-wider text-slate-500">Company</p>
+            <ul class="mt-4 space-y-3 text-sm text-slate-400">
+              <li><a href="/about.html" class="transition hover:text-white">About</a></li>
+              <li><a href="mailto:hello@cafixi.com" class="transition hover:text-white">Contact</a></li>
+              <li><a href="/privacy.html" class="transition hover:text-white">Privacy Policy</a></li>
+              <li><a href="/terms.html" class="transition hover:text-white">Terms of Service</a></li>
+            </ul>
+          </div>
+          <!-- Connect -->
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-wider text-slate-500">Connect</p>
+            <ul class="mt-4 space-y-3 text-sm text-slate-400">
+              <li>
+                <a href="https://www.tiktok.com/@cafixiapp" class="transition hover:text-white" rel="noopener noreferrer" target="_blank"
+                  >TikTok @cafixiapp</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/cafixi.ai" class="transition hover:text-white" rel="noopener noreferrer" target="_blank"
+                  >Instagram @cafixi.ai</a
+                >
+              </li>
+              <li>
+                <a href="https://www.youtube.com/@cafixi" class="transition hover:text-white" rel="noopener noreferrer" target="_blank"
+                  >YouTube @cafixi</a
+                >
+              </li>
+              <li>
+                <a href="https://x.com/cafixiapp" class="transition hover:text-white" rel="noopener noreferrer" target="_blank"
+                  >X (Twitter) @cafixiapp</a
+                >
+              </li>
+              <li>
+                <a href="mailto:hello@cafixi.com" class="transition hover:text-white">Email: hello@cafixi.com</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <nav class="flex gap-6 text-sm text-slate-400">
-          <a href="#" class="hover:text-white">Privacy</a>
-          <a href="#" class="hover:text-white">Terms</a>
-          <a href="#pricing" class="hover:text-white">Pricing</a>
-        </nav>
+
+        <div
+          class="mt-12 flex flex-col gap-3 border-t border-white/5 pt-8 text-[11px] leading-relaxed text-slate-500 sm:flex-row sm:items-start sm:justify-between sm:gap-6 md:text-xs"
+        >
+          <p>Made with ❤️ in Rowland Heights, CA</p>
+          <p class="sm:max-w-md sm:text-right">AI diagnosis is for reference only. Always consult a certified mechanic.</p>
+        </div>
       </div>
     </footer>
   </body>
