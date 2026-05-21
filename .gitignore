@@ -1,0 +1,17 @@
+# Claude Code local settings
+.claude/
+
+# Vercel
+.vercel/
+
+# Node
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
