@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/api/diagnose",
+      "destination": "/api/diagnose"
+    },
+    {
       "source": "/api/:path*",
       "destination": "https://auto-doctor-ai-bdaniel0214.replit.app/api/:path*"
     }
